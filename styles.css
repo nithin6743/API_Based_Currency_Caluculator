@@ -101,11 +101,17 @@ select:hover{
 }
 
 .msg{
-    font-size: 1rem;
+    height: 3rem;
+    width: 100%;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin: 2rem;
+    margin: 2rem 0;
+    align-content: center;
     align-items: center;
     justify-content: center;
+    background-color: #916390b1;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 button{
@@ -115,7 +121,7 @@ button{
     background-color: #653463;
     color: white;
     font-size: 1.2rem;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 button:hover{
