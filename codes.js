@@ -159,3 +159,6 @@ const countryList = {
     ZMK: "ZM",
     ZWD: "ZW",
   };
+
+//    CurrencyConverter API 
+// https://api.exconvert.com/convert?from=USD&to=AUD&amount=1&access_key=21f397de-8b899504-f58af2e2-70444778
