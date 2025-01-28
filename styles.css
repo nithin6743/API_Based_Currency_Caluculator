@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bona Nova SC", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F7EF99;
+}
+
+.container{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 3rem 2rem;
+    min-height: 70vh;
+    width: 70vh;
+}
+
+.input{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.amount{
+    border: 1px solid #5D675B;
+    height: 2rem;
+    border-radius: 3px;
+    padding: 4px 4px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.countries{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.from,.to{
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fromCountry, .toCountry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fromCurrency, .toCurrency {
+    height: 40px;
+    width: 90px;
+    border: none;
+    outline: none;
+    background-color: #5d675b2a;
+    font-weight: bold;
+}
+
+.fromCountry img, .toCountry img {
+    max-width: 100%;
+    height: 80px;
+}
+
+.from,.to{
+    margin: 0 4rem;
+}
+
+select {
+    width: 100%;
+    padding: 1px;
+    font-size: 1rem;
+    border: 1px solid #5D675B;
+    border-radius: 4px;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+.countries i{
+    font-size: 1.5rem;
+}
+
+.msg{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+    height: 3rem;
+    border: none;
+    background-color: #653463;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #431f41;
+    cursor: pointer;
+}
